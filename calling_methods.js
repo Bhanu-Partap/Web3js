@@ -6,4 +6,6 @@ const web3 = new Web3(provider);
 
 const ABI = abijson;
 
-const data = web3.contract.methods.x().call().then(console.log);
+const contract = web3.eth.Contract(abijson, "0xD7ACd2a9FD159E69Bb102A1ca21C9a3e3A5F771B");
+
+
