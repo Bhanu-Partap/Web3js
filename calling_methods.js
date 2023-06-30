@@ -287,6 +287,6 @@ const contract =  new web3.eth.Contract(abi,address);
 
 //-------------- placing a bid on the item-----------------//
 
-contract.methods.placeBid("1").send({from :"0x3f78727734B1B3F2883F0cB3b5556F54286Df739", gas :"300000", value :web3.utils.toWei("5", "ether")})
+contract.methods.placeBid("1").send({from :"0x3f78727734B1B3F2883F0cB3b5556F54286Df739", gas :"300000", value :web3.utils.toWei("10", "ether")})
 
 // web3.utils.toWei("5", "ether")
