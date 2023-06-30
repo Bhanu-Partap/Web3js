@@ -10,11 +10,7 @@ const web3 = new Web3(provider);
 //     console.log(web3.utils.fromWei(result, "ether"));
 //   });
 
-// web3.eth.sendTransaction({
-//   from: "0x15051DCCEd6633fE7E600D0f62Eacd901D71751b",
-//   to: "0x0B1F3208Dc2628b13692dE28f43dA1e5E713e2Eb",
-//   value: web3.utils.toWei("50", "ether"),
-// });
+
 
 web3.eth.sendTransaction({
   from :"0x7a343535Bf9d26445998E158BB272C92d42DF88e",
