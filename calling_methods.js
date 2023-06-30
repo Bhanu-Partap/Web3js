@@ -282,8 +282,11 @@ const contract =  new web3.eth.Contract(abi,address);
 
 
 //--------------Creating the item--------------//
-contract.methods.CreateItem("hello").send({from : "0x7d989b2154132af6E7e125190C68a460431967B4", gas :"300000"})
+// contract.methods.CreateItem("hello").send({from : "0x7d989b2154132af6E7e125190C68a460431967B4", gas :"300000"})
 
 
 //-------------- placing a bid on the item-----------------//
 
+contract.methods.placeBid("1").send({from :"0x3f78727734B1B3F2883F0cB3b5556F54286Df739", gas :"300000", value :web3.utils.toWei("5", "ether")})
+
+// web3.utils.toWei("5", "ether")
