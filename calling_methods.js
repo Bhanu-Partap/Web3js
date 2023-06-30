@@ -280,6 +280,10 @@ const contract =  new web3.eth.Contract(abi,address);
 
 //==== REMIX AUCTION CONTRACT WITH GANACHE AND FUNCTION USAGE ====//
 
+
+//--------------Creating the item--------------//
 contract.methods.CreateItem("hello").send({from : "0x7d989b2154132af6E7e125190C68a460431967B4", gas :"300000"})
 
+
+//-------------- placing a bid on the item-----------------//
 
