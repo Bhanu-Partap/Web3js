@@ -278,7 +278,12 @@ const contract =  new web3.eth.Contract(abi,address);
 
 // call();
 
-//==== REMIX AUCTION CONTRACT WITH GANACHE AND FUNCTION USAGE ====//
+
+
+
+
+
+//====**********// REMIX AUCTION CONTRACT WITH GANACHE AND FUNCTION USAGE //**********====//
 
 
 //--------------Creating the item--------------//
