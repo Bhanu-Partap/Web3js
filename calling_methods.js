@@ -280,9 +280,6 @@ const contract =  new web3.eth.Contract(abi,address);
 
 
 
-
-
-
 //====**********// REMIX AUCTION CONTRACT WITH GANACHE AND FUNCTION USAGE //**********====//
 
 
