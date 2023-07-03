@@ -13,7 +13,10 @@ const web3 = new Web3(provider);
 
 
 web3.eth.sendTransaction({
-  from :"0x7a343535Bf9d26445998E158BB272C92d42DF88e",
-  to :"0x7d989b2154132af6E7e125190C68a460431967B4",
+  from :"0x9a6C4d42B9D56Af06423c3aAE58DE75230e2FDd4",
+  to :"0x1e05B06E7c718425162e36af874d3B2C6313b4EC",
   value : web3.utils.toWei("5","ether"),
+}).on("receipt",(reciept)=>{
+  console.log("contract Address", reciept.contractAddress);
 })
+
