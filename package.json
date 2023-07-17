@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "web3": "^4.0.1"
-  }
+  },
+  "type": "module"
 }
